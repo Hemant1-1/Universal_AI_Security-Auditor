@@ -1,0 +1,32 @@
+============================================================
+PENETRATION TESTING SUMMARY REPORT
+============================================================
+
+Target: udemy.com
+Scan Date: 2026-03-06 12:45:37
+Risk Level: LOW
+
+========================================
+NMAP SCAN RESULTS
+========================================
+Command: nmap -sV -T4 udemy.com
+Open Ports Found: 4
+
+Service Details:
+  Port 80: http
+    Details: Cloudflare http proxy
+  Port 443: ssl/http
+    Details: Cloudflare http proxy
+  Port 8080: http
+    Details: Cloudflare http proxy
+  Port 8443: ssl/http
+    Details: Cloudflare http proxy
+
+========================================
+EXPLOIT SUGGESTIONS
+========================================
+  No exploit suggestions found.
+
+============================================================
+END OF REPORT
+============================================================

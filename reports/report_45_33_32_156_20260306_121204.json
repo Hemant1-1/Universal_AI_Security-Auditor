@@ -1,0 +1,51 @@
+{
+    "target": "45.33.32.156",
+    "scan_timestamp": "20260306_121204",
+    "nmap_results": {
+        "command": "nmap -sV -T4 45.33.32.156",
+        "open_ports": [
+            "22",
+            "80",
+            "9929",
+            "31337"
+        ],
+        "service_details": [
+            {
+                "port": "22",
+                "protocol": "tcp",
+                "service": "ssh",
+                "details": "OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13 (Ubuntu Linux; protocol 2.0)"
+            },
+            {
+                "port": "80",
+                "protocol": "tcp",
+                "service": "http",
+                "details": "Apache httpd 2.4.7 ((Ubuntu))"
+            },
+            {
+                "port": "9929",
+                "protocol": "tcp",
+                "service": "nping-echo",
+                "details": "Nping echo"
+            },
+            {
+                "port": "31337",
+                "protocol": "tcp",
+                "service": "tcpwrapped",
+                "details": "Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel"
+            }
+        ]
+    },
+    "exploit_suggestions": [],
+    "summary": {
+        "total_open_ports": 4,
+        "total_exploit_suggestions": 0,
+        "services_found": [
+            "22/ssh",
+            "80/http",
+            "9929/nping-echo",
+            "31337/tcpwrapped"
+        ],
+        "risk_level": "LOW"
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "target": "udemy.com",
+    "scan_timestamp": "20260306_112908",
+    "nmap_results": {
+        "command": "nmap -sV -T4 udemy.com",
+        "open_ports": [
+            "80",
+            "443",
+            "8080",
+            "8443"
+        ],
+        "service_details": [
+            {
+                "port": "80",
+                "protocol": "tcp",
+                "service": "http",
+                "details": "Cloudflare http proxy"
+            },
+            {
+                "port": "443",
+                "protocol": "tcp",
+                "service": "ssl/http",
+                "details": "Cloudflare http proxy"
+            },
+            {
+                "port": "8080",
+                "protocol": "tcp",
+                "service": "http",
+                "details": "Cloudflare http proxy"
+            },
+            {
+                "port": "8443",
+                "protocol": "tcp",
+                "service": "ssl/http",
+                "details": "Cloudflare http proxy"
+            }
+        ]
+    },
+    "exploit_suggestions": [],
+    "summary": {
+        "total_open_ports": 4,
+        "total_exploit_suggestions": 0,
+        "services_found": [
+            "80/http",
+            "443/ssl/http",
+            "8080/http",
+            "8443/ssl/http"
+        ],
+        "risk_level": "LOW"
+    }
+}

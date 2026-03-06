@@ -1,0 +1,35 @@
+{
+    "target": "google.com",
+    "scan_timestamp": "20260306_162901",
+    "nmap_results": {
+        "command": "nmap -sV -T4 google.com",
+        "open_ports": [
+            "80",
+            "443"
+        ],
+        "service_details": [
+            {
+                "port": "80",
+                "protocol": "tcp",
+                "service": "http",
+                "details": "gws"
+            },
+            {
+                "port": "443",
+                "protocol": "tcp",
+                "service": "ssl/https",
+                "details": "gws"
+            }
+        ]
+    },
+    "exploit_suggestions": [],
+    "summary": {
+        "total_open_ports": 2,
+        "total_exploit_suggestions": 0,
+        "services_found": [
+            "80/http",
+            "443/ssl/https"
+        ],
+        "risk_level": "LOW"
+    }
+}
